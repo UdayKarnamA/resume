@@ -1,23 +1,19 @@
 <?php
-
-$strName = $_POST["name"];
-$strEmail = $_POST["email"];
-$strMobile = nl2br($_POST["mobile"]);
-$strSub = nl2br($_POST["subject"]);
-$strMsg = nl2br($_POST["msg"]);
-
-$body="Job-title:$strSub \r\n
-Name:$strName \r\n
-Email:$strEmail \r\n
-Phone:$strMobile \r\n
-Subject:$strSub \r\n
-Message:$strMsg";
-$from=$strEmail;
-
-$to='udayka782@gmail.com'; // removed for spam protection
-
-mail($to,$from,$body);
-
-echo "<script> alert('Your Form has been Submitted successfully'); window.location.href='index.html'; </script>";
-
-?>
+		if(isset($_POST['email'])){
+			$to = "udayka782@gmail.com"; // this is my Email address
+			$from = $_POST['email']; // sender
+			$subject = "Resume in Github";
+			$headers = "From:" . $from;
+			$headers2 = "From:" . $to;
+			
+			$message ="Name : ".$_POST['name']."\n".
+			"Contact : ".$_POST['mobile']."\n".
+			"Email : ".$_POST['email']." \n".
+			"Subject : " .$_POST['subject']."\n".
+			"Message :".$_POST['msg'];
+			
+			$status= mail($to,$subject,$message,$headers);
+			
+			echo "<div><p align='center'> Mail Sent <br> Thank you...! " . $_POST['name'] . ", we will contact you shortly.</p><div>";
+		}
+		
