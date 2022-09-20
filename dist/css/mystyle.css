@@ -29,8 +29,16 @@
 #myprofile{
 	padding: 20px;
     border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 7px 7px 7px 7px #c5bebe;	
+    border-radius: 10px;	
+}
+#myprofile:hover{
+	box-shadow: 5px 5px #400000;
+}
+.exp_font{
+	font-size: 16px !important;
+	background-color: white;
+	padding: 5px;
+    border-radius: 12px;
 }
 /*-------------- Tablet ----------- */
 @media only screen and (max-width: 800px) {
@@ -60,6 +68,7 @@
 
 }
 }
+
 
 /* ----------  mobile ---------  */
 @media only screen and (max-width: 400px) {
