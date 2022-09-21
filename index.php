@@ -160,57 +160,171 @@
 						<div class="jumbotron">
 
 							<div class="panel-group" id="accordion">
-						    <div class="panel panel-default">
+
+								<div class="panel panel-default">
 						      <div class="panel-heading">
 						        <h4 class="panel-title">
-						          <div data-toggle="collapse" data-parent="#accordion" href="#collapse1">Project #1</div>
-						        </h4>
-						      </div>
-						      <div id="collapse1" class="panel-collapse collapse in">
-						        <div class="panel-body">
-						        		Project Name 	:  Apollo Pharamacy
-							Technolgoies 		:  HTML, CSS, Jquery, PHP, Magento 2 
-							Database 		:  Mysql
-							Project Description 	: Online from India’s most trusted brand Apollo Pharamacy offers on
-							  Nutrition, Diabetes, Baby care and Medicine.
-							Responsibilites 	:  - Support work with development
-							   - Fixing application errors using PHP and Jquery
-							   - Amazon Cloud watch - Basic Monitoring for EC2
-						        </div>
-						      </div>
-						    </div>
-						    <div class="panel panel-default">
-						      <div class="panel-heading">
-						        <h4 class="panel-title">
-						          <div data-toggle="collapse" data-parent="#accordion" href="#collapse2">Project #2</div>
+						          <div data-toggle="collapse" data-parent="#accordion" href="#collapse2">Project #1</div>
 						        </h4>
 						      </div>
 						      <div id="collapse2" class="panel-collapse collapse">
 						        <div class="panel-body">
-						        		Project Name		: Vijayalakshmi Silks
-							Technologies		: HTML, CSS, Jquery, PHP, Magento 2 
-							Database		: Mysql
-							Project Description	: Vijayalakshmi Silks is online shopping for womens to provide best
-								   Quality sarees with Pure Silk.Using this Application we can order Sarees
-							Responsibilities	: - Support role and developement work for vijayalakshmi Silks
-							  - Integrated third party extension for emails transactions
-							  - Involving in discussions to add new functionalities.
-								  - Responsible for Developing the application using Php, jquery,css
-								  - Webstite Optimization
 
+						        	<table class="table">
+						        			<tr>
+						        				<th>Company Name</th>
+						        				<td>Freelancing</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Designation</th>
+						        				<td>Web Developer</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project Name</th>
+						        				<td>BPO Outsourcing</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Technologies</th>
+						        				<td>HTML, CSS, Jquery, PHP</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project_Description</th>
+						        				<td>Vijayalakshmi Silks is online shopping for womens to provide best
+								   Quality sarees with Pure Silk.Using this Application we can order Sarees</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Responsibilites</th>
+						        				<td>  - Support role and developement work for vijayalakshmi Silks <br>
+															 	  - Integrated third party extension for emails transactions <br>
+															    - Involving in discussions to add new functionalities.<br>
+																  - Responsible for Developing the application using Php, jquery,css<br>
+																  - Webstite Optimization</td>
+						        			</tr>
+						        	</table>
+						        </div>
+						      </div>
+						    </div>
+
+						    <div class="panel panel-default">
+						      <div class="panel-heading">
+						        <h4 class="panel-title">
+						          <div data-toggle="collapse" data-parent="#accordion" href="#collapse1">Project #2</div>
+						        </h4>
+						      </div>
+						      <div id="collapse1" class="panel-collapse collapse in">
+						        <div class="panel-body">
+						        	<table class="table">
+						        			<tr>
+						        				<th>Company Name</th>
+						        				<td>Retail Insights Pvt Ltd</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Designation</th>
+						        				<td>Junior Software Engineer</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project Name</th>
+						        				<td>Online Shopping - Medical Store</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Technologies</th>
+						        				<td>HTML, CSS, Jquery, PHP & MySql, Magento 2</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project_Description</th>
+						        				<td>Online from India’s most trusted brand Apollo Pharamacy offers on
+							  Nutrition, Diabetes, Baby care and Medicine.</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Responsibilites</th>
+						        				<td> - Support work with development <br>
+							   								- Fixing application errors using PHP and Jquery <br>
+							 								  - Amazon Cloud watch - Basic Monitoring for EC2</td>
+						        			</tr>
+						        	</table>
 						        </div>
 						      </div>
 						    </div>
 						    <div class="panel panel-default">
 						      <div class="panel-heading">
 						        <h4 class="panel-title">
-						          <div data-toggle="collapse" data-parent="#accordion" href="#collapse3">Project #3</div>
+						          <div data-toggle="collapse" data-parent="#accordion" href="#collapse2">Project #3</div>
+						        </h4>
+						      </div>
+						      <div id="collapse2" class="panel-collapse collapse">
+						        <div class="panel-body">
+
+						        	<table class="table">
+						        			<tr>
+						        				<th>Company Name</th>
+						        				<td>Retail Insights Pvt Ltd</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Designation</th>
+						        				<td>Junior Software Engineer</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project Name</th>
+						        				<td>Ecommerce - Online Shopping</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Technologies</th>
+						        				<td>HTML, CSS, Jquery, PHP & MySql, Magento 2</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project_Description</th>
+						        				<td>Vijayalakshmi Silks is online shopping for womens to provide best
+								   Quality sarees with Pure Silk.Using this Application we can order Sarees</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Responsibilites</th>
+						        				<td>  - Support role and developement work for vijayalakshmi Silks <br>
+															 	  - Integrated third party extension for emails transactions <br>
+															    - Involving in discussions to add new functionalities.<br>
+																  - Responsible for Developing the application using Php, jquery,css<br>
+																  - Webstite Optimization</td>
+						        			</tr>
+						        	</table>
+						        </div>
+						      </div>
+						    </div>
+						    <div class="panel panel-default">
+						      <div class="panel-heading">
+						        <h4 class="panel-title">
+						          <div data-toggle="collapse" data-parent="#accordion" href="#collapse3">Project #4 </div>
 						        </h4>
 						      </div>
 						      <div id="collapse3" class="panel-collapse collapse">
-						        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+						        <div class="panel-body">
+						        		<table class="table">
+						        			<tr>
+						        				<th>Company Name</th>
+						        				<td>Design Mac</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Designation</th>
+						        				<td>Web Developer / Intership</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project Name</th>
+						        				<td>BPO - Outsourcing</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Technologies</th>
+						        				<td>HTML,CSS,Bootstrap,PHP</td>
+						        			</tr>
+						        			<tr>
+						        				<th>Project_Description</th>
+						        				<td> BPO outsourcing Project </td>
+						        			</tr>
+						        			<tr>
+						        				<th>Responsibilites</th>
+						        				<td>  - Customized theme as per requirement <br>
+																  - Responsible for Developing the application using HTML and CSS, Bootstrap<br>
+																  - Built mail functionality using php </td>
+						        			</tr>
+						        	</table>
+						        </div>
 						      </div>
 						    </div>
 						  </div> 

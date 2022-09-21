@@ -1,4 +1,4 @@
-<?php
+ <?php
 		if(isset($_POST['email'])){
 			$to = "udayka782@gmail.com"; // this is my Email address
 			$from = $_POST['email']; // sender
@@ -13,7 +13,8 @@
 			"Message :".$_POST['msg'];
 			
 			$status= mail($to,$subject,$message,$headers);
-			
+
 			echo "<div><p align='center'> Mail Sent <br> Thank you...! " . $_POST['name'] . ", we will contact you shortly.</p><div>";
+
+			header('Location:index.php');
 		}
-		
